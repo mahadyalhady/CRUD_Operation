@@ -1,0 +1,76 @@
+.employee-form {
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+.employees-table {
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: #dddddd;
+}
+
+/* box */
+input[type=text],
+input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* submit */
+input[type=submit] {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons {
+    text-align: right;
+}
+
+/* action */
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+    margin-right: 4px;
+}
+
+label.validation-error {
+    color: rgb(255, 94, 0);
+    margin-left:5px;
+}
+
+.hide {
+    display: none;
+}
